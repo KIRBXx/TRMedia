@@ -1,0 +1,28 @@
+
+<?php $__env->startSection('content'); ?>
+<?php if (Session::has('error')): ?>
+<div class="alert alert-danger fade in">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <strong><?php echo trans(Session::get('reason')); ?></strong>
+</div>
+<?php endif; ?>
+<h3 class="content-heading"><?php echo t('Registration'); ?></h3>
+<?php echo Form::open(); ?>
+<div class="form-group">
+    <label for="username">Select Username<small>*</small></label>
+    <?php echo Form::text('username','',array('class'=>'form-control','id'=>'username','placeholder'=>'Select Username','required'=>'required')); ?>
+</div>
+
+<div class="form-group">
+    <label for="password">Password<small>*</small></label>
+    <?php echo Form::password('password',array('class'=>'form-control','id'=>'password','placeholder'=>'Enter Password','autocomplete'=>'off','required'=>'required')); ?>
+</div>
+<div class="form-group">
+    <label for="password_confirmation">Retype Password<small>*</small></label>
+    <?php echo Form::password('password_confirmation',array('class'=>'form-control','id'=>'password_confirmation','placeholder'=>'Confirm Password','autocomplete'=>'off','required'=>'required')); ?>
+</div>
+<p><small>By clicking on the "create account" you accept the following <a href="<?php echo url('tos'); ?>">terms and conditions</a> and our <a href="<?php echo url('privacy'); ?>">privacy policy</a></small></p>
+<?php echo Form::submit('Create New Account',array('class'=>'btn btn-success')); ?>
+<?php echo Form::close(); ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master/index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,88 @@
+<?php $__env->startSection('metaDescription'); ?>
+<?php if(strlen($image->description) > 2): ?>
+<meta name="description" content="<?php echo $description; ?>">
+<?php else: ?>
+<meta name="description" content="<?php echo $image->title; ?> <?php echo siteSettings('description'); ?>">
+<?php endif; ?>
+<meta property="og:title" content="<?php echo ucfirst($image->title); ?> - <?php echo siteSettings('siteName'); ?>"/>
+<meta property="og:image" content="<?php echo asset(cropResize('uploads/'.$image->image_name. '.' . $image->type )); ?>"/>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+
+<h3 class="content-heading"><?php echo e(ucfirst($image->title)); ?></h3>
+
+<div class="main-image">
+    <div class="controlArrow controlArrow-prev "><a href="<?php echo url('image/'.($image->id+1)); ?>" class="fa fa-arrow-circle-left"></a></div>
+    <div class="controlArrow controlArrow-next"><a href="<?php echo url('image/'.($image->id-1)); ?>" class="fa fa-arrow-circle-right"></a></div>
+    <p><img src="<?php echo asset(cropResize('uploads/'.$image->image_name. '.' . $image->type,1140,1140)); ?>" alt="<?php echo e(ucfirst($image->title)); ?>" class="img-thumbnail"/></p>
+</div> <!--.main-image-->
+
+<div class="clearfix">
+    <div class="image-details">
+        <div class="col-md-8">
+            <h3 class="block-heading"><?php echo t('Description'); ?> <span class="pull-right">
+                            <div class="btn-group  btn-group-xs">
+                                <?php if(checkFavorite($image->id) == true): ?>
+                                <button type="button" class="btn btn-danger favoritebtn" id="<?php echo $image->id; ?>"><i class="fa fa-heart"></i> <?php echo t('Un-Favorite'); ?></button>
+                                <?php else: ?>
+                                <button type="button" class="btn  btn-success favoritebtn" id="<?php echo $image->id; ?>"><i class="fa fa-heart"></i> <?php echo t('Favorite'); ?></button>
+                                <?php endif; ?>
+
+                                <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <?php echo t('More'); ?>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <?php if(siteSettings('allowDownloadOriginal') == 1 || siteSettings('allowDownloadOriginal') == 'leaveToUser' && $image->allow_download == 1): ?>
+                                    <li>
+                                        <a href="<?php echo url('download/'.Crypt::encrypt($image->id).'/'.Crypt::encrypt($image->slug)); ?>"><?php echo t('Download Original'); ?></a>
+                                    </li>
+                                    <?php endif; ?>
+                                    <li><a href="<?php echo url('report/image/'.$image->id); ?>"><?php echo t('Report'); ?></a></li>
+                                    <?php if(Auth::check() == true): ?>
+                                    <?php if(Auth::user()->id == $image->user_id): ?>
+                                    <li><a href="<?php echo url('delete/image/'.$image->id); ?>"><?php echo t('Delete'); ?></a></li>
+                                    <?php endif; ?>
+                                    <?php endif; ?>
+                                </ul>
+                                <!-- end of dropdown menu-->
+                            </div>
+                        </span></h3>
+
+            <p><?php echo nl2br(Smilies::parse(makeLinks(HTML::entities($image->image_description)))); ?></p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="block-heading"><?php echo t('Details'); ?></h3>
+
+            <div class="image-status">
+                <ul class="list-inline">
+                    <li><i class="fa fa-heart"></i> <?php echo $numberOfFavorites; ?></li>
+                    <li><i class="fa fa-comments"></i> <?php echo $numberOfComments; ?></li>
+                    <li><i class="fa fa-download"></i> <?php echo $image->downloads; ?></li>
+                </ul>
+            </div>
+        </div>
+        <!-- .col-md-4 -->
+    </div>
+</div>
+<!--.clearfix-->
+<?php echo $__env->make('image/comment', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('sidebar'); ?>
+<?php echo $__env->make('image/sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46572607-1', 'theracersmedia.com');
+  ga('send', 'pageview');
+
+</script>
+<?php echo $__env->make('master/index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

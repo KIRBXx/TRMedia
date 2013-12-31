@@ -1,0 +1,78 @@
+<div class="col-md-3">
+<font size="5"><center><strong><?php echo e($user->username); ?></strong></center></font>    
+<a href="<?php echo url('user/'.$user->username); ?>" class="thumbnail">
+    <img src="<?php echo avatar($user->avatar,263,236); ?>" alt="...">
+</a>
+<h2 class="profile-social">
+    <a href="<?php echo url('user/'.$user->username.'/rss'); ?>" class="black entypo-rss" target="_blank"></a>
+    <?php if(strlen($user->fb_link) > 2): ?>
+    <a href="<?php echo addhttp($user->fb_link); ?>" class="black entypo-facebook" target="_blank"></a>
+    <?php endif; ?>
+    <?php if(strlen($user->tw_link) > 2): ?>
+    <a href="<?php echo addhttp($user->tw_link); ?>" class="black entypo-twitter" target="_blank"></a>
+    <?php endif; ?>
+    <?php if(strlen($user->blogurl) > 2): ?>
+    <a href="<?php echo addhttp($user->blogurl); ?>" class="black entypo-link" target="_blank"></a>
+    <?php endif; ?>
+</h2>
+<hr>
+<?php if(Auth::check() == true): ?>
+<?php if(Auth::user()->id == $user->id): ?>
+<a href="<?php echo url('settings'); ?>" type="button" class="btn btn-default btn-lg btn-block"><?php echo t('Edit My Profile'); ?></a>
+<a href="<?php echo url('user/'.Auth::user()->username.'/following'); ?>" type="button" class="btn btn-default btn-lg btn-block"><?php echo t("I'm following"); ?></a>
+<?php else: ?>
+<?php if(checkFollow($user->id)): ?>
+<a type="button" class="btn btn-default btn-lg btn-block follow" id="<?php echo $user->id; ?>"><?php echo t('Un Follow'); ?></a>
+<?php else: ?>
+<a type="button" class="btn btn-default btn-lg btn-block follow" id="<?php echo $user->id; ?>"><?php echo t('Follow Me'); ?></a>
+<?php endif; ?>
+<?php endif; ?>
+<hr>
+<?php endif; ?>
+
+<div class="userdetails">
+    <h3 class="content-heading"><?php echo $user->followers->count(); ?>&nbsp;&nbsp; <?php echo t('Followers'); ?>  <small class="pull-right"><a href="<?php echo url('user/'. $user->username. '/followers'); ?>"><?php echo t('See all'); ?></a></small></h3>
+
+    <div class="clearfix">
+        <div class="imagesFromUser">
+        <?php $i = 0; ?>
+        <?php foreach($user->followers as $follower): ?>
+            <a href="<?php echo url('user/'.$follower->user->username); ?>" class="pull-left userimage">
+                <img src="<?php echo avatar($follower->user->avatar,69,69); ?>" alt="<?php echo $follower->user->fullname; ?>" class="thumbnail">
+            </a>
+        <?php
+        if ($i == 9)
+            break;
+        $i++;
+        ?>
+        <?php endforeach; ?>
+        </div>
+    </div>
+
+    <h3 class="content-heading"><?php echo ('Stats'); ?></h3>
+    <p><?php echo $user->numberOfImages; ?> <?php echo t('Images Shared'); ?></p>
+    <p><?php echo $user->numberOfComments; ?> <?php echo t('Comments'); ?></p>
+
+    <h3 class="content-heading"><?php echo t('Most Used Tags'); ?></h3>
+    <?php foreach($mostUsedTags as $tag => $key): ?>
+    <a href="<?php echo url('tag/'.$tag); ?>" class="tag"><span class="label label-info"><?php echo e($tag); ?></span></a>
+    <?php endforeach; ?>
+
+    <?php if(strlen($user->about_me) > 2): ?>
+    <h3 class="content-heading"><?php echo t('About Me'); ?></h3>
+    <p><?php echo e($user->about_me); ?></p>
+    <?php endif; ?>
+
+    <?php if(strlen($user->country) == 2): ?>
+    <h3 class="content-heading"><?php echo t('Country'); ?></h3>
+    <p><?php echo countryResolver($user->country); ?></p>
+    <?php endif; ?>
+
+</div>
+
+<?php if(Auth::check()): ?>
+<?php if(Auth::user()->id != $user->id): ?>
+<small><a href="<?php echo url('report/user/'.$user->username); ?>"><?php echo t('Report'); ?></a></small>
+<?php endif; ?>
+<?php endif; ?>
+</div>

@@ -1,0 +1,157 @@
+
+<?php $__env->startSection('container'); ?>
+<h3 class="content-heading">Site Details In Quick Look</h3>
+
+
+<div class="row section">
+    <div class="col-md-12">
+        <h4 class="title">Monthy Sigup Chart <small>Monthly number of registered users</small></h4>
+    </div>
+    <div class="col-md-12 chart">
+        <div id="hero-graph" style="height: 230px;"></div>
+    </div>
+</div>
+
+<hr>
+
+
+<div class="row section">
+    <div class="col-md-12">
+        <h4 class="title">Monthy Image Uploads <small>Number of images uploaded monthly</small></h4>
+    </div>
+    <div class="col-md-12 chart">
+        <div id="image-upload" style="height: 230px;"></div>
+    </div>
+</div>
+
+<hr>
+
+
+
+<div class="page-header">
+    <h3 class="content-heading">Other Stats</h3>
+</div>
+<?php if(siteSettings('autoApprove') == 0): ?>
+<p class="text-danger"><h4><?php echo numberOfImagesApprovalRequired(); ?> Images Required Approval  <a href="<?php echo url('admin/images/approval'); ?>">Manage</a></h4></p>
+<hr>
+<?php else: ?>
+<p><h4> Your site is auto approval.</h4></p>
+<hr>
+<?php endif; ?>
+
+<ul class="inline-block-list">
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfUsers(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/users'); ?>">Users </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfImages(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/images'); ?>">Images </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfComments(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/comments'); ?>">Comments</a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfFeaturedImages(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/images/featured'); ?>">Featured Images </a></div>
+
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfFeaturedUsers(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/users/featured'); ?>">Featured Users </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfBanedUsers(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/users/banned'); ?>">Baned Users </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><?php echo numberOfReports(); ?></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/reports'); ?>">Reports </a></div>
+    </li>
+</ul>
+
+<hr>
+<div class="page-header">
+    <h3 class="content-heading">Site Other Settings</h3>
+</div>
+
+<ul class="inline-block-list">
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="glyphicon glyphicon-edit"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/sitesettings'); ?>">Edit Site Settings </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="glyphicon glyphicon-wrench"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/limitsettings'); ?>">Limit Settings </a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="glyphicon glyphicon-align-center"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/sitecategory'); ?>">Sites Category</a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="glyphicon glyphicon-floppy-remove"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/removecache'); ?>">Delete Cache</a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="glyphicon glyphicon-time"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/updatesitemap'); ?>">Update Sitemap</a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="fa fa-plus-square-o"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/adduser'); ?>">Add real/fake user</a></div>
+    </li>
+    <li class="panel panel-default provider-panel">
+        <div class="panel-body"><i class="fa fa-cloud-upload"></i></div>
+        <div class="panel-footer"><a href="<?php echo url('admin/bulkupload'); ?>">Bulk Upload</a></div>
+    </li>
+</ul>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('chart-js'); ?>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
+<script type="text/javascript">
+
+    var tax_data = [
+
+    <?php for($i = date('n'); $i >= 0; $i--): ?>
+            <?php if(isset($signUpDetails[$i])): ?>
+                {"period": "<?php echo date('Y'); ?>-<?php echo $signUpDetails[$i]->month; ?>", "signups": <?php echo $signUpDetails[$i]->number; ?> },
+            <?php else: ?>
+                 {"period": "<?php echo date('Y'); ?>-<?php echo $i; ?>", "signups": 0 },
+            <?php endif; ?>
+    <?php endfor; ?>
+    ];
+    Morris.Line({
+        element: 'hero-graph',
+        data: tax_data,
+        xkey: 'period',
+        xLabels: "month",
+        ykeys: ['signups'],
+        labels: ['Signups']
+    });
+
+
+    var tax_data = [
+
+    <?php for($i = date('n'); $i >= 0; $i--): ?>
+        <?php if(isset($imageDetails[$i])): ?>
+    {"period": "<?php echo date('Y'); ?>-<?php echo $imageDetails[$i]->month; ?>", "signups": <?php echo $imageDetails[$i]->number; ?> },
+    <?php else: ?>
+    {"period": "<?php echo date('Y'); ?>-<?php echo $i; ?>", "signups": 0 },
+    <?php endif; ?>
+    <?php endfor; ?>
+    ];
+    Morris.Line({
+        element: 'image-upload',
+        data: tax_data,
+        xkey: 'period',
+        xLabels: "month",
+        ykeys: ['signups'],
+        labels: ['Image Uploads']
+    });
+</script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('admin/master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

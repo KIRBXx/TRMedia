@@ -1,0 +1,1179 @@
+[2013-12-17 00:26:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:40:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:46:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:47:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:48:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:48:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 00:55:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:11:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:12:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:15:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:31:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:39:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 01:47:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 02:02:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 02:17:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 02:33:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 02:39:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:32:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:40:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:47:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:47:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:48:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 03:48:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:25:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:34:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:37:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:49:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:49:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 04:56:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 05:01:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 05:02:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 05:34:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 05:35:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:01:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:03:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:28:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:33:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:36:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 06:36:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 07:19:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 07:22:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 07:36:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 07:37:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 08:15:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 08:16:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 08:17:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 08:18:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 08:38:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:38:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 09:40:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 10:23:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:06:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:06:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:07:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:07:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:08:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:08:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:08:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:08:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:08:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 11:49:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:15:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:15:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:15:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:15:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:33:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 12:51:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:02:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:18:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:18:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:18:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:30:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 13:46:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:05:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:22:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:57:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:57:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:57:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 14:57:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 15:27:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:34:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:43:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:43:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:43:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:43:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:48:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:48:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:48:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 16:48:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 17:41:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 17:51:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 17:51:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 17:51:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 17:51:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:00:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:00:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:00:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:00:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:12:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:34:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:34:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:34:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:34:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:42:23] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home4/jcg13/app/filters.php:76
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home4/jcg13/bootstrap/compiled.php(8193): call_user_func_array(Object(Closure), Array)
+#2 /home4/jcg13/bootstrap/compiled.php(8166): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(8144): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2013-12-17 18:42:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:45:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:45:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:45:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:45:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 18:48:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:10:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:10:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:10:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:10:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:11:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:36:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:36:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:36:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:36:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 19:54:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:10:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:19:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:19:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:19:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:19:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:34:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:34:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:34:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:34:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 20:37:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 21:01:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 21:09:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 21:23:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 21:37:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 22:08:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 23:07:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-17 23:15:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

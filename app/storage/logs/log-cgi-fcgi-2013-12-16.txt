@@ -1,0 +1,1199 @@
+[2013-12-16 07:32:38] log.ERROR: exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(242): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->__call('table', Array)
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->table('sitesettings')
+#8 /home4/jcg13/app/library/sitesettings.php(8): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#9 /home4/jcg13/app/library/sitesettings.php(8): Illuminate\Support\Facades\DB::table('sitesettings')
+#10 /home4/jcg13/app/controllers/HomeController.php(9): siteSettings('siteName')
+#11 [internal function]: HomeController->getIndex()
+#12 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#13 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#14 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2013-12-16 07:33:22] log.ERROR: exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(242): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->__call('table', Array)
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->table('sitesettings')
+#8 /home4/jcg13/app/library/sitesettings.php(8): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#9 /home4/jcg13/app/library/sitesettings.php(8): Illuminate\Support\Facades\DB::table('sitesettings')
+#10 /home4/jcg13/app/controllers/HomeController.php(9): siteSettings('siteName')
+#11 [internal function]: HomeController->getIndex()
+#12 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#13 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#14 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2013-12-16 07:34:10] log.ERROR: exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(484): Illuminate\Database\Eloquent\Model->newQuery()
+#10 /home4/jcg13/app/controllers/ImageController.php(17): Illuminate\Database\Eloquent\Model::find('17')
+#11 [internal function]: ImageController->getIndex('17', 'junior-johnson-...')
+#12 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#13 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#14 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('17', 'junior-johnson-...')
+#16 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2013-12-16 07:35:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 07:38:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 07:38:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 07:41:06] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 07:41:51] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host localhost [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 07:43:52] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 08:06:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'Racers' (T_STRING), expecting ')'' in /home4/jcg13/app/config/mail.php:57
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-12-16 08:14:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 08:46:14] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2013-12-16 08:54:41] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 09:06:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:06:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:09:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:09:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:10:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:11:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:11:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:12:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:12:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 09:15:31] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 09:18:10] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 09:20:22] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'Racers' (T_STRING), expecting ')'' in /home4/jcg13/app/config/mail.php:57
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-12-16 09:37:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';', expecting ')'' in /home4/jcg13/app/config/mail.php:57
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-12-16 09:39:52] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host localhost [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 09:45:14] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 10:36:34] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';', expecting ')'' in /home4/jcg13/app/config/mail.php:57
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-12-16 10:49:34] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''encryption'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'' in /home4/jcg13/app/config/mail.php:70
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-12-16 11:17:09] log.ERROR: exception 'ErrorException' with message 'Use of undefined constant tls - assumed 'tls'' in /home4/jcg13/app/config/mail.php:70
+Stack trace:
+#0 /home4/jcg13/app/config/mail.php(70): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/home4/jcg13/ap...', 70, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(4070): require('/home4/jcg13/ap...')
+#2 /home4/jcg13/bootstrap/compiled.php(3964): Illuminate\Filesystem\Filesystem->getRequire('/home4/jcg13/ap...')
+#3 /home4/jcg13/bootstrap/compiled.php(3802): Illuminate\Config\FileLoader->load('production', 'mail', NULL)
+#4 /home4/jcg13/bootstrap/compiled.php(3782): Illuminate\Config\Repository->load('mail', NULL, '*::mail')
+#5 /home4/jcg13/bootstrap/compiled.php(3890): Illuminate\Config\Repository->get('mail')
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php(66): Illuminate\Config\Repository->offsetGet('mail')
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php(25): Illuminate\Mail\MailServiceProvider->registerSwiftMailer()
+#8 /home4/jcg13/bootstrap/compiled.php(448): Illuminate\Mail\MailServiceProvider->register()
+#9 /home4/jcg13/bootstrap/compiled.php(474): Illuminate\Foundation\Application->register(Object(Illuminate\Mail\MailServiceProvider))
+#10 /home4/jcg13/bootstrap/compiled.php(491): Illuminate\Foundation\Application->loadDeferredProvider('mailer')
+#11 /home4/jcg13/bootstrap/compiled.php(260): Illuminate\Foundation\Application->make('mailer')
+#12 /home4/jcg13/bootstrap/compiled.php(3451): Illuminate\Container\Container->offsetGet('mailer')
+#13 /home4/jcg13/bootstrap/compiled.php(3471): Illuminate\Support\Facades\Facade::resolveFacadeInstance('mailer')
+#14 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#15 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#16 [internal function]: RegistrationController->postIndex()
+#17 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#18 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#19 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#22 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#23 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2013-12-16 11:24:00] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.mandrillapp.com [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 11:26:28] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.mandrillapp.com [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 11:46:36] log.ERROR: exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [gator4083.hostgator.com] does not comply with RFC 2822, 3.6.2.' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('gator4083.hostg...')
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Message.php(36): Swift_Mime_SimpleMessage->setFrom('gator4083.hostg...', 'THE RACERS MEDI...')
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(347): Illuminate\Mail\Message->from('gator4083.hostg...', 'THE RACERS MEDI...')
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(109): Illuminate\Mail\Mailer->createMessage()
+#8 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#9 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#10 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#11 [internal function]: RegistrationController->postIndex()
+#12 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#13 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#14 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#17 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#18 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2013-12-16 11:54:22] log.ERROR: exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [mail.theracersmedia.com] does not comply with RFC 2822, 3.6.2.' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('mail.theracersm...')
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Message.php(36): Swift_Mime_SimpleMessage->setFrom('mail.theracersm...', 'THE RACERS MEDI...')
+#6 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(347): Illuminate\Mail\Message->from('mail.theracersm...', 'THE RACERS MEDI...')
+#7 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(109): Illuminate\Mail\Mailer->createMessage()
+#8 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#9 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#10 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#11 [internal function]: RegistrationController->postIndex()
+#12 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#13 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#14 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#17 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#18 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2013-12-16 12:10:28] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host localhost [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 12:13:41] log.ERROR: exception 'Swift_TransportException' with message 'Connection could not be established with host localhost [Connection refused #111]' in /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/jcg13/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/jcg13/bootstrap/compiled.php(3480): Illuminate\Mail\Mailer->send('emails.registra...', Array, Object(Closure))
+#6 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Facade::__callStatic('send', Array)
+#7 /home4/jcg13/app/controllers/RegistrationController.php(57): Illuminate\Support\Facades\Mail::send('emails.registra...', Array, Object(Closure))
+#8 [internal function]: RegistrationController->postIndex()
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#14 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#15 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-12-16 12:21:54] log.INFO: Pretending to mail message to: tester@theracersmedia.com [] []
+[2013-12-16 12:34:43] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 12:35:27] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 12:37:24] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 12:37:52] log.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$user' in /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804:11
+Stack trace:
+#0 /home4/jcg13/app/storage/views/1334ad84c2b16464d827c07bb0155804(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home4/jcg13/ap...', 11, Array)
+#1 /home4/jcg13/bootstrap/compiled.php(9409): include('/home4/jcg13/ap...')
+#2 /home4/jcg13/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/jcg13/ap...', Array)
+#3 /home4/jcg13/bootstrap/compiled.php(9295): Illuminate\View\Engines\CompilerEngine->get('/home4/jcg13/ap...', Array)
+#4 /home4/jcg13/bootstrap/compiled.php(9286): Illuminate\View\View->getContents()
+#5 /home4/jcg13/bootstrap/compiled.php(9896): Illuminate\View\View->render()
+#6 /home4/jcg13/bootstrap/compiled.php(9435): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home4/jcg13/bootstrap/compiled.php(5118): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home4/jcg13/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getIndex', Object(Illuminate\View\View))
+#10 /home4/jcg13/bootstrap/compiled.php(4948): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/jcg13/bootstrap/compiled.php(8159): call_user_func_array(Object(Closure), Array)
+#13 /home4/jcg13/bootstrap/compiled.php(8146): Illuminate\Routing\Route->callCallable()
+#14 /home4/jcg13/bootstrap/compiled.php(4959): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-12-16 13:36:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:36:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:36:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:36:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:41:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:41:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:41:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:41:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:42:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 13:54:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:17:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:18:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:19:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:19:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:19:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:20:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:20:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:21:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 14:21:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 15:01:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 15:49:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 16:36:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 17:33:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 18:23:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 18:25:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 19:24:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 19:27:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 19:33:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 20:24:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 20:55:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 21:47:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 22:17:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 22:33:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 22:49:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 22:58:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:28:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:28:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:29:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:30:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:31:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-12-16 23:57:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/jcg13/bootstrap/compiled.php:5125
+Stack trace:
+#0 /home4/jcg13/bootstrap/compiled.php(4970): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/jcg13/bootstrap/compiled.php(4958): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/jcg13/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/jcg13/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/jcg13/public_html/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

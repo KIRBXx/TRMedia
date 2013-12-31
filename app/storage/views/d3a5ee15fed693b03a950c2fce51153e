@@ -1,0 +1,41 @@
+<div class="col-md-3">
+    <?php if(getFeaturedUser()->count() >= 1): ?>
+    <div class="clearfix">
+        <h3 class="content-heading"><?php echo ('Featured Member'); ?></h3>
+
+        <div class="imagesFromUser">
+            <?php foreach(getFeaturedUser() as $featuredUser): ?>
+            <div class="col-md-12">
+                <div class="row">
+
+                    <a href="<?php echo url('user/'.$featuredUser->username); ?>" class="thumbnail pull-left">
+                        <img src="<?php echo avatar($featuredUser->avatar,69,69); ?>" alt="<?php echo $featuredUser->fullname; ?>">
+                    </a>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <p><strong><a href="<?php echo url('user/'.$featuredUser->username); ?>"><?php echo $featuredUser->username; ?></a></strong></p>
+                        <?php if(Auth::check()): ?>
+                        <?php if(checkFollow($featuredUser->id)): ?>
+                        <button class="btn btn-default btn-xs replyfollow follow" id="<?php echo $featuredUser->id; ?>"><?php echo ('UnFollow'); ?></button>
+                        <?php else: ?>
+                        <button class="btn btn-default btn-xs replyfollow follow" id="<?php echo $featuredUser->id; ?>"><?php echo ('Follow'); ?></button>
+                        <?php endif; ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+    <?php endif; ?>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FTheRacersMedia&amp;width=250&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=504325102999321" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:290px;" allowTransparency="true"></iframe>
+
+    <div class="clearfix">
+        <h3 class="block-heading"><?php echo t('More From'); ?> <?php echo siteSettings('siteName'); ?></h3>
+        <div class="more-from-site">
+            <?php foreach(moreFromSite() as $sidebarImage): ?>
+            <a href="<?php echo url('image/'.$sidebarImage->id.'/'.$sidebarImage->slug); ?>"><img src="<?php echo asset(zoomCrop('uploads/'.$sidebarImage->image_name.'.' . $sidebarImage->type ,70,70)); ?>" alt="<?php echo $sidebarImage->title; ?>"/></a>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>

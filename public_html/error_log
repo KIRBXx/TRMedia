@@ -1,0 +1,103 @@
+[28-Dec-2013 17:03:54 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/app/views/contact_us/index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(/a...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/boots in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:03:54 UTC] PHP Fatal error:  main(): Failed opening required '/app/views/contact_us/index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:07 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/app/views/contact_us/index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(/a...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/boots in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:07 UTC] PHP Fatal error:  main(): Failed opening required '/app/views/contact_us/index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:44 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(app/views/contact_us/index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(ap...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootst in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:44 UTC] PHP Fatal error:  main(): Failed opening required 'app/views/contact_us/index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:47 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(app/views/contact_us/index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(ap...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootst in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:04:47 UTC] PHP Fatal error:  main(): Failed opening required 'app/views/contact_us/index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:13 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(in...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootstrap/compiled.php(4947 in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:13 UTC] PHP Fatal error:  main(): Failed opening required 'index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:15 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(in...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootstrap/compiled.php(4947 in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:15 UTC] PHP Fatal error:  main(): Failed opening required 'index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:29 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(in...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootstrap/compiled.php(4947 in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:29 UTC] PHP Fatal error:  main(): Failed opening required 'index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:52 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(index.blade.php): failed to open stream: No such file or directory' in /home4/jcg13/app/controllers/ContactUsController.php:2
+Stack trace:
+#0 /home4/jcg13/app/controllers/ContactUsController.php(2): Illuminate\Exception\Handler->handleError(2, 'require_once(in...', '/home4/jcg13/ap...', 2, Array)
+#1 /home4/jcg13/app/controllers/ContactUsController.php(2): require_once()
+#2 /home4/jcg13/bootstrap/compiled.php(13): require_once('/home4/jcg13/ap...')
+#3 [internal function]: Illuminate\Support\ClassLoader::load('ContactUsContro...')
+#4 [internal function]: spl_autoload_call('ContactUsContro...')
+#5 /home4/jcg13/bootstrap/compiled.php(169): ReflectionClass->__construct('ContactUsContro...')
+#6 /home4/jcg13/bootstrap/compiled.php(146): Illuminate\Container\Container->build('ContactUsContro...', Array)
+#7 /home4/jcg13/bootstrap/compiled.php(493): Illuminate\Container\Container->make('ContactUsContro...', Array)
+#8 /home4/jcg13/bootstrap/compiled.php(4947 in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 17:05:52 UTC] PHP Fatal error:  main(): Failed opening required 'index.blade.php' (include_path='.:/opt/php53/lib/php') in /home4/jcg13/app/controllers/ContactUsController.php on line 2
+[28-Dec-2013 18:37:38 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 18:37:41 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 18:38:22 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 18:39:45 UTC] PHP Parse error:  syntax error, unexpected ',' in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 18:40:22 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 18:40:37 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /home4/jcg13/app/controllers/ContactUsController.php on line 39
+[28-Dec-2013 19:11:46 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /home4/jcg13/app/controllers/ContactUsController.php on line 39

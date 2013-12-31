@@ -1,0 +1,72 @@
+.inline-block-list {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1
+}
+
+.inline-block-list li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.unstyled-link {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit
+}
+
+.unstyled-link:active, .unstyled-link:focus {
+    outline: none
+}
+
+.unstyled-link:hover {
+    text-decoration: none;
+    color: inherit
+}
+
+.hide-text {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    display: block;
+    width: 0;
+    line-height: 0
+}
+
+.icon-lg {
+    font-size: 45px;
+    line-height: 1
+}
+
+.provider-panel {
+    width: 150px;
+    text-align: center
+}
+
+.provider-panel .panel-body {
+    font-size: 50px;
+    color: #428bca;
+    background: #f0f7fd
+}
+
+.provider-panel .panel-body[class^="icon-"]::before, .provider-panel .panel-body[class*=" icon-"]::before {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto
+}
+
+.provider-panel .panel-footer {
+    background: white
+}

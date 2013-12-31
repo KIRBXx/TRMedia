@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Universal Donation Box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	  ol.installation li {padding-bottom: 10px; padding-top: 10px;}
+    </style>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+	<link href="//halfdata.com/pluto/universal-donation-box/css/udb.css?ver=1.50" rel="stylesheet"> 
+	<script src="//halfdata.com/pluto/universal-donation-box/js/udb-jsonp.js?ver=1.50"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Universal Donation Box</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+<!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Universal Donation Box</h1>
+        <p>Powerful donation manager for your website, 
+which handles unlimited number of dontaion campaigns, supports multiple payment gateways (PayPal, Payza/AlertPay, 
+Skrill/Moneybookers, Authorize.Net, InterKassa, EgoPay, Perfect Money, Stripe and BitPay) and can be easily integrated
+into any website.</p>
+        <p><a class="btn btn-primary btn-large" href="http://codecanyon.net/item/universal-donation-box/2952313?ref=ichurakov">Download Script &raquo;</a></p>
+      </div>
+<a name="intro" id="intro"></a>
+<h3>Intro</h3>
+<strong>Universal Donation Box</strong> is a powerful donation manager for your website. 
+It handles unlimited number of dontaion campaigns, supports multiple payment gateways (PayPal, Payza/AlertPay, 
+Skrill/Moneybookers, Authorize.Net, InterKassa, EgoPay, Perfect Money, Stripe and BitPay) and can be easily integrated
+into any website (no more difficult than insert Facebook Like button, check out steps 5-6 in "Installation" paragraph). 
+<strong>Universal Donation Box</strong> is the easiest and perfect way to monitize your website.
+
+<h3>Features</h3>
+<ul>
+<li><strong>Handle donations on website:</strong> use this script to handle donations.</li>
+<li><strong>Multiple payment gateways:</strong> PayPal, Payza/AlertPay, Skrill/Moneybookers, Authorize.Net, InterKassa, EgoPay, Perfect Money, Stripe and BitPay.</li>
+<li><strong>Accept cryptocurrency – bitcoin:</strong> bitcoin payments are accepted through BitPay.</li>
+<li><strong>Accept major credit cards – visa/mastercard/amex:</strong> payments are accepted through Stripe.</li>
+<li><strong>Minimum donation limit:</strong> set minimum donation limit.</li>
+<li><strong>Unlimited campaigns:</strong> handle (create, edit, delete, block, unblock) unlimited number of campaigns.</li>
+<li><strong>Modern donation form:</strong> HTML5 + CSS3, AJAX-ed donation form.</li>
+<li><strong>Display top donors:</strong> script can display top donors.</li>
+<li><strong>Display recent donors:</strong> script can display top donors.</li>
+<li><strong>Content editor:</strong> insert any HTML-content inside of donation box.</li>
+<li><strong>Secure Admin Panel:</strong> configure script and manage data through nice admin panel.</li>
+<li><strong>Easy to integrate:</strong> insert only 3 lines of code into webpage (check out "Installation" paragraph).</li>
+<li><strong>Cross domain access supported:</strong> you can install script on one domain and use it with unlimited number of domains.</li>
+<li><strong>CSV Export:</strong> all donors can be exported as CSV-file.</li>
+<li><strong>PHP mail() function supported:</strong> emails can be sent through <code>mail()</code> function.</li>
+<li><strong>SMTP supported:</strong> emails can be sent through SMTP server.</li>
+<li><strong>and more, and more, and more...</strong></li>
+</ul>
+
+<h3>Demo</h3>
+
+<ol class="embed-list">
+	<li>
+	Donation form only:
+	<div class="udb-box" data-id="1"></div>
+	</li>
+	<li>
+	Donation form without "URL" field and list of top 10 donors:
+	<div class="udb-box" data-id="1" data-rel="form-nourl,top-10"></div>
+	</li>
+	<li>
+	List of recent 10 donors:
+	<div class="udb-box" data-id="1" data-rel="recent-10"></div>
+	</li>
+</ol>
+
+<h3>Admin Panel Demo</h3>
+
+You can try admin panel:
+<br />URL: <a href="http://halfdata.com/pluto/universal-donation-box/" target="_blank">http://halfdata.com/pluto/universal-donation-box/</a>
+<br />Login: <code>admin</code>
+<br />Password: <code>admin</code>
+
+<h3>Installation</h3>
+
+<p>Let's imagine that you have website <code>http://www.website.com/</code> and you want to install script there.</p>
+<ol class="installation">
+<li>Create folder <code>donation-box</code> (use any other name) in root of your domain. Once created it can be reached by URL: <code>http://www.website.com/donation-box/</code></li>
+<li>Edit <code>inc/config.php</code> and set MySQL database parameters.</li>
+<li>Go to admin panel <code>http://www.website.com/donation-box/</code> using default login/password (login: <code>admin</code>, password: <code>admin</code>), configure script on <code>Settings</code> page and create at least one campaign on <code>Campaigns</code> page.</li>
+<li>Make sure that your website loads jQuery. If it doesn't, just add this line into <code>head</code> section:<br />
+<code>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;</code></li>
+<li>If you plan to use Stripe, add this line into <code>head</code> section too:
+	<br /><code>&lt;script src="https://checkout.stripe.com/v2/checkout.js"&gt;&lt;/script&gt;</code></li>
+<li>Add these lines into <code>head</code> section (before <code>&lt;/head&gt;</code> tag):
+	<br /><code>&lt;link href="//www.website.com/donation-box/css/udb.css" rel="stylesheet"&gt;</code>
+	<br /><code>&lt;script src="//www.website.com/donation-box/js/udb-jsonp.js"&gt;&lt;/script&gt;</code>
+</li>
+<li>Add campaign shortcode (from <code>Campaigns</code> page) in the place where you want to see donation box. Example:
+	<br /><code>&lt;div class="udb-box" data-id="X"&gt;&lt;/div&gt;</code>
+</li>
+</ol>
+
+<h3>Customization</h3>
+By default, donation box contains donation form only. You can customize donation box using <code>data-rel</code>
+attribute on step #6. Below you can see available basic values for this attribute:
+<ul class="data-rel-attributes">
+	<li><code>form</code> - display donation form</li>
+	<li><code>form-nourl</code> - display donation form without "URL" field</li>
+	<li><code>top-X</code> - display top X donors</li>
+	<li><code>recent-X</code> - display recent X donors</li>
+</ul>
+You can create complex value by mixing basic values (ex. <code>data-rel="form,top-5"</code> or <code>data-rel="top-5,recent-5"</code>). Examples:
+<ol class="embed-list">
+	<li>
+	This code generates donation box which contains donation form and list of top 10 donors:
+	<br /><code>&lt;div class="udb-box" data-id="X" data-rel="form,top-10"&gt;&lt;/div&gt;</code>
+	</li>
+	<li>
+	This code generates donation box which contains list of 10 recent donors and list of top 5 donors:
+	<br /><code>&lt;div class="udb-box" data-id="X" data-rel="recent-10,top-5"&gt;&lt;/div&gt;</code>
+	</li>
+	<li>
+	This code generates donation box which contains list of top 10 donors and form without "URL" field:
+	<br /><code>&lt;div class="udb-box" data-id="X" data-rel="top-10,form-nourl"&gt;&lt;/div&gt;</code>
+	</li>
+</ol>
+
+<h3>Requirements</h3>
+<ul>
+<li>PHP version 5.0 or greater</li>
+<li>MySQL version 5.0 or greater</li>
+<li>jQuery version 1.5 or greater</li>
+</ul>
+
+<h3>Support</h3>
+If you have problems regarding using the script, please contat me and I'll help you.
+
+
+      <hr>
+</div> <!-- /container -->
+<!-- Footer - begin -->
+<div class="navbar navbar-fixed-bottom navbar-inverse">
+	<div class="navbar-inner">
+		<div class="container">
+			<p class="navbar-text pull-left">Universal Donation Box, ver. 1.50</p>
+			<p class="navbar-text pull-right">Copyright &copy; 2012 <a href="http://www.icprojects.net/" target="_blank">Ivan Churakov</a></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
