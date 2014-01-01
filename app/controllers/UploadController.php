@@ -20,21 +20,24 @@ class UploadController extends BaseController
 
     public function postUpload()
     {
-        if (@getimagesize(Input::file('files')[0]) == FALSE) {
-            return $this->error(array('error'=>t('Image File is required')));
-        }
+        // For some reason when there are < 5 tags
+        // files is empty - the way the UI is it
+        // should be kind of safe to comment this out
+        //if (@getimagesize(Input::file('files')[0]) == FALSE) {
+        //    return $this->error(array('error'=>t('Image File is required')));
+        //}
 
+        // Removing tag req - RR 30 Dec 2013
         $v = array(
             'title'    => array('required', 'min:2', 'max:100'),
-            'category' => array('required'),
-            'tags'     => array('required'),
+            'category' => array('required')
+            //'tags'     => array('required'),
         );
 
         $v = Validator::make(Input::all(), $v);
         if ($v->fails()) {
             return $this->error($v->messages()->toArray());
         }
-
         // check if category exits
         if (DB::table('sitecategories')->where('slug', '=', Str::slug(Input::get('category')))->count() != 1) {
             return $this->error(array('error'=>t('Invalid category')));
@@ -52,16 +55,16 @@ class UploadController extends BaseController
         $mimetype = Input::file('files')[0]->getMimeType();
         $mimetype = preg_replace('/image\//', '', $mimetype);
         $file = Input::file('files')[0]->move('uploads/', $imageName . '.' . $mimetype);
-
         $tags = Input::get('tags');
         $parts = explode(',', $tags, siteSettings('tagsLimit'));
 
-        if (count($parts) == 0) {
-            return $this->error(array('error'=>'Tags are required'));
-        }
-        if (strlen($parts[0]) == 0) {
-            return $this->error(array('error'=>'Tags are required'));
-        }
+        // Removing tag req - RR 30 Dec 2013
+        //if (count($parts) == 0) {
+        //    return $this->error(array('error'=>'Tags are required'));
+        //}
+        //if (strlen($parts[0]) == 0) {
+        //    return $this->error(array('error'=>'Tags are required'));
+        //}
         $tags = implode(',', array_map('strtolower', $parts));
 
         $format_description = preg_replace('/\R\R+/u', "\n\n", trim(Input::get('description')));
