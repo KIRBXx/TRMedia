@@ -53,7 +53,7 @@
 
     @if($image->favorite->count() >= 1)
     <!-- DIMPLY USERS WHO FAVORITE THIS IMAGE -->
-    <h3 class="block-heading">{{ t('Favorites') }}
+    <h3 class="block-heading">{{ ('Favorited By') }}
         <small class="pull-right">{{ $image->favorite->count() }}</small>
     </h3>
     <div class="clearfix">
