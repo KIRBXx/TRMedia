@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{{ $title }}} - {{ siteSettings('siteName') }}</title>
+<title>The Racers Media - Motorsport Media Sharing</title>
     @yield('metaDescription')
     <link rel="shortcut icon" href="{{ siteSettings('favIcon') }}" type="image/x-icon"/>
     <!--[if IE 8]>
