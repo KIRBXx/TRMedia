@@ -15,6 +15,7 @@ Route::get('gallery', 'GalleryController@getIndex');
 Route::get('featured', 'FeaturedController@getIndex');
 Route::get('image/{id}/{slug?}', 'ImageController@getIndex')->where(array('id' => '\d+'));
 Route::get('user/{username}', 'UserController@getUser');
+Route::get('user/{username}/shared', 'UserController@getShared');
 Route::get('user/{username}/favorites', 'UserController@getFavorites');
 Route::get('user/{username}/followers', 'UserController@getFollowers');
 Route::get('user/{username}/rss', 'UserController@getRss');

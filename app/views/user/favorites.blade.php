@@ -4,10 +4,22 @@
 @include('user/rightsidebar')
 
 <div class="col-md-9">
-    <ul class="nav nav-tabs usernavbar">
-        <li><a href="{{ url('user/'.$user->username) }}"><i class="glyphicon glyphicon-picture"></i> {{ t('Images Shared') }}</a></li>
-        <li class="active"><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
-    </ul>
+<ul class="nav nav-tabs usernavbar">
+          <li><a href="{{ url('user/'.$user->username) }}" class="active"><i class="glyphicon glyphicon-user"></i> User Info</a></li>
+          <li><a href="{{ url('user/'.$user->username.'/shared') }}"><i class="glyphicon glyphicon-picture"></i> {{ t('Images Shared') }}</a></li>
+          <li class='active'><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
+@if(Auth::check() == true)
+  @if(Auth::user()->id == $user->id)
+      <li class='pull-right'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("I'm following") }}</a></li>
+  @else
+    @if(checkFollow($user->id))
+      <li class='pull-right'><a href="#" class="follow btn btn-success" id="{{ $user->id }}">Unfollow Me</a>
+    @else
+      <li class='pull-right'><a href="#" class="follow btn btn-danger" id="{{ $user->id }}">Follow Me</a>
+    @endif
+  @endif
+@endif
+      </ul>
     <div class="gallery">
         @foreach($user->favorites as $image)
         <?php $image = $image->image; ?>
