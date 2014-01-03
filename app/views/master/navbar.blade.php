@@ -6,8 +6,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url('/') }}">{{ siteSettings('siteName') }}</a>
-        </div>
+			<a class="navbar-brand" HREF="/"><img src="/social/images/logo.png"></a>        
+			</div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('gallery') }}">{{ ('Home') }}</a></li>
