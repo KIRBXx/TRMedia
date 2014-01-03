@@ -27,13 +27,12 @@
             <h3 class='content-heading'><a href="{{ url('settings') }}">Details</a></h3>
             <table class='table table-striped'>
             <tr><td><strong>User Name:</strong><td>{{$user->username}}</td></tr>
-            <tr><td><strong>Full Name:</strong><td>{{$user->fullname}}</td></tr>
             @if(strlen($user->country) == 2) 
             <tr><td><strong>Country:</strong><td>{{ countryResolver($user->country) }}</td></tr>
             @else
             <tr><td><strong>Country:</strong><td></td></tr>
             @endif
-            <tr><td><strong>Blog:</strong><td>{{$user->blogurl}}</td></tr>
+            <tr><td><strong>Website:</strong><td>{{$user->blogurl}}</td></tr>
             </table>
 
             <h3 class='content-heading'>Stats</h3>
