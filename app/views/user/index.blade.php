@@ -5,55 +5,59 @@
 
 <div class="col-md-9">
     <span id="links"></span>
-    <ul class="nav nav-tabs usernavbar">
-        <li class="active"><a href="{{ url('user/'.$user->username) }}"><i class="glyphicon glyphicon-picture"></i> {{ t('Images Shared') }}</a></li>
-        <li><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
-    </ul>
-    <div class="gallery">
-        @foreach(array_chunk($images->getCollection()->all(),3) as $img)
-        <div class="row">
-            @foreach($img as $image)
-            @if($image->deleted_at == NULL AND $image->approved == 1)
-            <div class="col-md-4 col-sm-4 gallery-display">
-                <figure>
-                    <a href="{{ url('image/'.$image->id.'/'.$image->slug) }}"><img src="{{ asset(zoomCrop('uploads/'.$image->image_name. '.' . $image->type,350,263)) }}"
-                                                                                   alt="{{{ Str::limit(ucfirst($image->title),30) }}}"
-                                                                                   class="display-image"></a>
-                    <a href="{{ url('image/'.$image->id.'/'.$image->slug) }}" class="figcaption">
-                        <h3>{{{ Str::limit(ucfirst($image->title),40) }}}</h3>
-                        <span>{{{ Str::limit(ucfirst($image->image_description),80) }}}</span>
-                    </a>
-                </figure>
-                <div class="box-detail">
-                    <h5 class="heading"><a href="{{ url('image/'.$image->id.'/'.$image->slug) }}">{{{ Str::limit(ucfirst($image->title),15) }}}</a></h5>
-                    <ul class="list-inline gallery-details">
-                        <li><a href="{{ url('user/'.$image->user->username) }}">{{{ ucfirst($image->user->username) }}}</a></li>
-                        <li class="pull-right"><i class="fa fa-heart"></i> {{ $image->favorite()->count() }} <i class="fa fa-comments"></i> {{ $image->comments()->count() }}
-                            <span id="links"><a href="{{ asset(cropResize('uploads/'.$image->image_name. '.' . $image->type,1140,1140)) }}" title="{{{ ucfirst($image->title) }}}" data-gallery data-description="{{{ $image->image_description }}}"><i class="fa fa-external-link"></i></a></span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            @endif
-            @endforeach
-        </div>
-        @endforeach
-        <!-- Gallery navigation buttons -->
-        <div id="blueimp-gallery" class="blueimp-gallery">
-            <div class="slides"></div>
-            <h3 class="title"></h3>
-            <p class="description"></p>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="close">×</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-        </div> <!--.blueimp-gallery-->
-    </div>
-
+      <ul class="nav nav-tabs usernavbar">
+          <li class="active"><a href="{{ url('user/'.$user->username) }}" class="active"><i class="glyphicon glyphicon-user"></i> User Info</a></li>
+          <li><a href="{{ url('user/'.$user->username.'/shared') }}"><i class="glyphicon glyphicon-picture"></i> {{ t('Images Shared') }}</a></li>
+          <li><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
+@if(Auth::check() == true)
+  @if(Auth::user()->id == $user->id)
+      <li class='pull-right'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("I'm following") }}</a></li>
+  @else
+    @if(checkFollow($user->id))
+      <li class='pull-right'><a href="#" class="follow btn btn-success" id="{{ $user->id }}">Unfollow Me</a>
+    @else
+      <li class='pull-right'><a href="#" class="follow btn btn-danger" id="{{ $user->id }}">Follow Me</a>
+    @endif
+  @endif
+@endif
+      </ul>
     <div class="row">
-        <div class="container">
-            <div class="col-md-12"> {{ $images->links() }}</div>
+        <div class="container col-md-12">
+          <div class="col-left col-md-6">
+            <h3 class='content-heading'><a href="{{ url('settings') }}">Details</a></h3>
+            <table class='table table-striped'>
+            <tr><td><strong>User Name:</strong><td>{{$user->username}}</td></tr>
+            <tr><td><strong>Full Name:</strong><td>{{$user->fullname}}</td></tr>
+            @if(strlen($user->country) == 2) 
+            <tr><td><strong>Country:</strong><td>{{ countryResolver($user->country) }}</td></tr>
+            @else
+            <tr><td><strong>Country:</strong><td></td></tr>
+            @endif
+            <tr><td><strong>Blog:</strong><td>{{$user->blogurl}}</td></tr>
+            </table>
+
+            <h3 class='content-heading'>Stats</h3>
+            <table class='table table-striped'>
+            <tr><td><strong>Images Shared:</strong><td>{{ $user->numberOfImages }}</td></tr>
+            <tr><td><strong>Comments:</strong><td>{{ $user->numberOfComments }}</td></tr>
+            </table>
+          </div>
+          <div class="col-right col-md-6">
+            <h3 class='content-heading'><a href="{{ url('settings') }}">About Me</a></h3>
+            @if(strlen($user->about_me) > 2)
+              <p>{{{ $user->about_me }}}</p>
+            @else
+              <p><i><center>(none)</center></i></p>
+            @endif
+
+            <h3 class="content-heading">{{ $user->followers->count() }}&nbsp;&nbsp; {{ t('Followers') }}  <small class="pull-right"><a href="{{ url('user/'. $user->username. '/followers') }}">{{ t('See all') }}</a></small></h3> 
+
+            <h3 class="content-heading">{{ t('Most Used Tags') }}</h3>
+            @foreach($mostUsedTags as $tag => $key)
+              <a href="{{ url('tag/'.$tag) }}" class="tag"><span class="label label-info">{{{ $tag }}}</span></a>
+            @endforeach
+
+          </div>
         </div>
     </div>
 </div>

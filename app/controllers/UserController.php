@@ -39,6 +39,40 @@ class UserController extends BaseController
     }
 
 
+    public function getShared($user)
+    {
+
+        $user = User::where('username', '=', $user)->with('followers.user')->first();
+        if (!$user) {
+            return Redirect::to('gallery');
+        }
+        $images = Images::where('approved', '=', 1)->where('user_id', '=', $user->id)->with('comments','favorite')->orderBy('created_at','desc')->paginate(perPage());
+        $user->numberOfComments = $user->comments()->count();
+        $user->numberOfImages = $user->images()->where('approved', '=', 1)->count();
+        $tags = implode(',', $user->images()->lists('tags'));
+        $words = str_word_count($tags, 1);
+        $freq = array();
+        $i = 0;
+        foreach ($words as $w) {
+            if (preg_match_all('/' . preg_quote($w, '/') . '/', $tags, $m)) {
+                $freq[$w] = count($m[0]);
+            }
+            if ($i == 10) {
+                break;
+            }
+            $i++;
+        }
+        arsort($freq);
+
+        return View::make('user/shared')
+            ->with('title', $user->username)
+            ->with('images', $images)
+            ->with('mostUsedTags', $freq)
+            ->with('user', $user);
+
+    }
+
+
     public function getFavorites($user)
     {
         $user = User::where('username', '=', $user)->with('favorites.image.user')->first();
