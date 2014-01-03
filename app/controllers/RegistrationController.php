@@ -11,7 +11,7 @@ class RegistrationController extends BaseController
         if ($user->confirmed === $code) {
             $user->confirmed = 1;
             $user->save();
-			mail('jameskirby1993@gmail.com', "TRM new user", "User $username has registered and validated");
+			mail('james@theracersmedia.com', "TRM new user", "User $username has registered and validated");
 			}
 
         return Redirect::to('gallery')->with('flashError', t('You are not registered with us'));
