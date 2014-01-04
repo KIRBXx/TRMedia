@@ -3,10 +3,10 @@
 */
 
 //editable vars
-var goalAmount = 2000;//how much are you trying to get
+var goalAmount = 25;//how much are you trying to get
 //var currentAmount = 1267;//how much do you currently have (if you want to define in js, not html)
 var animationTime = 3000;//in milliseconds
-var numberPrefix = "$";//what comes before the number (set to "" if no prefix)
+var numberPrefix = "";//what comes before the number (set to "" if no prefix)
 var numberSuffix = "";//what goes after the number
 var tickMarkSegementCount = 4;//each segement adds 40px to the height
 var widthOfNumbers = 50;//the width in px of the numbers on the left
