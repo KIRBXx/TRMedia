@@ -96,8 +96,8 @@ class User extends Eloquent implements UserInterface, RemindableInterface
             'gender' => 'Required',
             'email' => 'Required|Between:3,64|Email|Unique:users',
             'password' => 'Required|Between:4,25|Confirmed',
-            'password_confirmation' => 'Required|Between:4,25',
-            'recaptcha_response_field' => 'required|recaptcha'
+            'password_confirmation' => 'Required|Between:4,25'
+            //'recaptcha_response_field' => 'required|recaptcha'
         );
 
         return Validator::make($input, $rules);

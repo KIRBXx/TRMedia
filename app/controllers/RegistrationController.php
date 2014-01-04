@@ -29,10 +29,6 @@ class RegistrationController extends BaseController
             return Redirect::to('gallery')->with('flashError', t('You are already logged in'));
         }
 
-        $v = User::validate(Input::all());
-        if ($v->fails()) {
-            return Redirect::to('registration')->withErrors($v);
-        }
         if (Input::get('gender') != 'male' && Input::get('gender') != 'female') {
             return Redirect::to('registration')->with('flashError', t('Invalid Gender'));
         }

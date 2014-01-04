@@ -36,10 +36,6 @@
     <label for="password_confirmation">{{ t('Retype Password') }}<small>*</small></label>
     {{ Form::password('password_confirmation',array('class'=>'form-control','id'=>'password_confirmation','placeholder'=>'Confirm Password','autocomplete'=>'off','required'=>'required')) }}
 </div>
-<div class="form-group">
-    <label for="recaptcha">{{ t('Type these words') }}<small>*</small></label>
-    {{ Form::captcha() }}
-</div>
 <p><small>By clicking on the "create account" you accept our <a href="{{ url('privacy') }}">privacy policy</a></small></p>
 {{ Form::submit(('Create Account'),array('class'=>'btn btn-success'))}}
 {{ Form::close() }}

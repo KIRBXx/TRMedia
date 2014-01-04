@@ -12,24 +12,24 @@ var tickMarkSegementCount = 4;//each segement adds 40px to the height
 var widthOfNumbers = 50;//the width in px of the numbers on the left
 
 //standard resolution images
-var glassTopImg = "images/glassTop.png";
-var glassBodyImg = "images/glassBody.png";
-var redVerticalImg = "images/redVertical.png";
-var tooltipFGImg = "images/tickShine.png";
-var glassBottomImg = "images/glassBottom.png";
-var tootipPointImg = "images/tooltipPoint.png";
-var tooltipMiddleImg = "images/tooltipMiddle.png";
-var tooltipButtImg = "images/tooltipButt.png";
+var glassTopImg = "goals/images/glassTop.png";
+var glassBodyImg = "goals/images/glassBody.png";
+var redVerticalImg = "goals/images/redVertical.png";
+var tooltipFGImg = "goals/images/tickShine.png";
+var glassBottomImg = "goals/images/glassBottom.png";
+var tootipPointImg = "goals/images/tooltipPoint.png";
+var tooltipMiddleImg = "goals/images/tooltipMiddle.png";
+var tooltipButtImg = "goals/images/tooltipButt.png";
 
 //high res images
-var glassTopImg2x = "images/glassTop2x.png";
-var glassBodyImg2x = "images/glassBody2x.png";
-var redVerticalImg2x = "images/redVertical2x.png";
-var tooltipFGImg2x = "images/tickShine2x.png";
-var glassBottomImg2x = "images/glassBottom2x.png";
-var tootipPointImg2x = "images/tooltipPoint2x.png";
-var tooltipMiddleImg2x = "images/tooltipMiddle2x.png";
-var tooltipButtImg2x = "images/tooltipButt2x.png";
+var glassTopImg2x = "goals/images/glassTop2x.png";
+var glassBodyImg2x = "goals/images/glassBody2x.png";
+var redVerticalImg2x = "goals/images/redVertical2x.png";
+var tooltipFGImg2x = "goals/images/tickShine2x.png";
+var glassBottomImg2x = "goals/images/glassBottom2x.png";
+var tootipPointImg2x = "goals/images/tooltipPoint2x.png";
+var tooltipMiddleImg2x = "goals/images/tooltipMiddle2x.png";
+var tooltipButtImg2x = "goals/images/tooltipButt2x.png";
 
 /////////////////////////////////////////
 // ------ don't edit below here ------ //
