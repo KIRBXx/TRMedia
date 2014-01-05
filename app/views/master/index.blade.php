@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +22,11 @@
     @yield('style')
 	<link href="//theracersmedia.com/donation-box/css/udb.css?ver=1.50" rel="stylesheet">
 	<link href="http://www.theracersmedia.com/layered-popups/css/style.css?ver=1.65" rel="stylesheet" type="text/css"> 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 @include('master/navbar')
