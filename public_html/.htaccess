@@ -293,7 +293,7 @@ FileETag None
 
 </IfModule>
 
-RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} "MSIE [6-8]" [NC]
-RewriteCond %{REQUEST_URI} !^/social/
-RewriteRule ^(.*)$ http://theracersmedia.com/social/warning.html [R=301,L]
+#RewriteEngine on
+#RewriteCond %{HTTP_USER_AGENT} "MSIE [6-8]" [NC]
+#RewriteCond %{REQUEST_URI} !^/social/
+#RewriteRule ^(.*)$ http://theracersmedia.com/social/warning.html [R=301,L]
