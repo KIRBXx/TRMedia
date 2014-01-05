@@ -17,8 +17,6 @@
     {{ HTML::style('static/css/style.css') }}
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     @yield('style')
-	<link href="//theracersmedia.com/donation-box/css/udb.css?ver=1.50" rel="stylesheet">
-	<link href="http://www.theracersmedia.com/layered-popups/css/style.css?ver=1.65" rel="stylesheet" type="text/css"> 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -58,8 +56,6 @@
 {{ HTML::script('static/js/custom.js') }}
 
 @yield('extrafooter')
-<script src="//theracersmedia.com/donation-box/js/udb-jsonp.js?ver=1.50"></script>
-<script src="http://www.theracersmedia.com/layered-popups/js/ulp-jsonp.js?ver=1.65"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
