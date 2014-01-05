@@ -6,6 +6,5 @@
     {{ siteSettings('about') }}
 </p>
 
-<div class="udb-box" data-id="1"></div>
 @stop
 
