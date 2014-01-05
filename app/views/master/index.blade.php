@@ -6,9 +6,6 @@
     <title>{{{ $title }}} - {{ siteSettings('siteName') }}</title>
     @yield('metaDescription')
     <link rel="shortcut icon" href="{{ siteSettings('favIcon') }}" type="image/x-icon"/>
-    <!--[if IE 8]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     {{ HTML::style('static/css/bootstrap.min.css',array('id'=>"colors")) }}
     {{ HTML::style('static/css/jquery-ui.css') }}
@@ -26,6 +23,12 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+      <div id='warning'>
+        You are using a version of Internet Explorer which is no longer supported.
+        Some features may not work correctly. Upgrade to a modern browser, such as
+        <a href='https://www.google.com/chrome'>Chrome</a> or <a href='http://getfirefox.com'>Firefox</a>.
+      </div>
     <![endif]-->
 </head>
 <body>
