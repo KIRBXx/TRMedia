@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Racers Media - Motorsport Media Sharing</title>
+    <title>The Racers Media - Motorsport Media Sharing</title>
     @yield('metaDescription')
     <link rel="shortcut icon" href="{{ siteSettings('favIcon') }}" type="image/x-icon"/>
     <!--[if IE 8]>
@@ -34,6 +34,12 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+      <div id="warning">
+        You are using a version of Internet Explorer which is no longer supported.
+        Some features may not work correctly. Upgrade to a modern browser, such as
+        <a href="https://www.google.com/chrome">Chrome</a> or <a href='http://getfirefox.com'>Firefox</a>.
+      </div>
     <![endif]-->
 </head>
 
