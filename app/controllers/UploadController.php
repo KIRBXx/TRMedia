@@ -57,6 +57,7 @@ class UploadController extends BaseController
         $file = Input::file('files')[0]->move('uploads/', $imageName . '.' . $mimetype);
         $tags = Input::get('tags');
         $parts = explode(',', $tags, siteSettings('tagsLimit'));
+        $source = Input::get('source');
 
         // Removing tag req - RR 30 Dec 2013
         //if (count($parts) == 0) {
@@ -99,6 +100,7 @@ class UploadController extends BaseController
         $upload->image_description = $format_description;
         $upload->allow_download = $allowDownload;
         $upload->approved = $approve;
+        $upload->source = $source;
 
         $upload->save();
 

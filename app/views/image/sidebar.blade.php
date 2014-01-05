@@ -30,6 +30,14 @@
         @endif
     </div>
     <hr/>
+    <h3 class="block-heading">Image Source</h3>
+      <div class="image-source">
+        @if($image->source)
+          {{ $image->source }}
+        @else
+          No Source Provided
+        @endif
+      </div>
 
     <h3 class="block-heading">Tags</h3>
     <ul class="list-inline taglist">

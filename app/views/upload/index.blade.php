@@ -63,6 +63,7 @@
               </select><br/>
             @endif
              <input type="text" autocomplete="off" name="tags" placeholder="Tags" class="form-control tm-input tm-input-success" data-original-title=""/>
+              <input name="source" type="text" class="form-control" placeholder="Image Source"/><br/>
           </p>
         </div>
 
