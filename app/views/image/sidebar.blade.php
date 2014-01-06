@@ -21,7 +21,7 @@
         @endif
         @endif
     </div>
-    <hr/>
+    
     <h3 class="block-heading">Image Source</h3>
       <div class="image-source">
         @if($image->source)
