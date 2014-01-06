@@ -1,13 +1,5 @@
 <div class="col-md-3">
 
-    <h3 class="block-heading">{{ t('Share This') }}</h3>
-
-    <div class="clearfix">
-        <div class="more-from-site">
-            @include('master/share')
-        </div>
-    </div>
-
     <h3 class="block-heading">{{ t('Author') }}</h3>
 
     <div class="image-author">

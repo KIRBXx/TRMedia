@@ -30,7 +30,21 @@
                                 @else
                                 <button type="button" class="btn  btn-success favoritebtn" id="{{ $image->id }}"><i class="fa fa-heart"></i> {{ t('Favorite') }}</button>
                                 @endif
-
+								
+								<div class="btn-primary btn-group btn-group-xs">
+								<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								Share
+								<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+								<li><a href="https://twitter.com/intent/tweet?url={{ Request::url() }}" class="twitter" target="_blank"><span class="entypo-twitter"></span></a></li>
+								<li><a href="http://www.facebook.com/sharer/sharer.php?u={{ Request::url() }}" class="facebook" target="_blank"><span class="entypo-facebook"></span></a></li>
+								<li><a href="https://plusone.google.com/_/+1/confirm?hl=en&url={{ Request::url() }}" class="gplus" target="_blank"><span class="entypo-gplus"></span></a></li>
+								<li><a href="javascript:void(run_pinmarklet())" class="pintrest"><span class="entypo-pinterest"></span></a></li>
+								</ul>
+								</div>
+								
+								
                                 <button type="button" class="btn btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">
                                     {{ t('More') }}
                                     <span class="caret"></span>
