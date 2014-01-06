@@ -1,0 +1,20 @@
+input, textarea, select {margin-bottom: 0px !important;}
+.row {margin-bottom: 10px;}
+small {color: #AAA;}
+#icontact_progress {display: none;}
+ol.embed-list li {margin-bottom: 20px; margin-top: 20px;}
+.loginbox {position: absolute; width: 450px; height: 100px; top: 50%; left: 50%; margin-top: -50px; margin-left: -225px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+-ms-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 5px;
+text-align:left;
+border: 1px solid #AAA;
+-moz-box-shadow: rgba(128,128,128,1) 0 4px 30px;
+-webkit-box-shadow: rgba(128,128,128,1) 0 4px 30px;
+-khtml-box-shadow: rgba(128,128,128,1) 0 4px 30px;
+box-shadow: rgba(128,128,128,1) 0 4px 30px;
+}
+ul.data-rel-attributes {margin-top: 10px; margin-bottom: 10px;}

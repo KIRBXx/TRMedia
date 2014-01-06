@@ -16,6 +16,7 @@
     {{ HTML::style('static/css/tagmanager.css') }}
     {{ HTML::style('static/css/style.css') }}
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="//theracersmedia.com/donations/css/udb.css?ver=1.50" rel="stylesheet">
     @yield('style')
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -56,6 +57,7 @@
 {{ HTML::script('static/js/custom.js') }}
 
 @yield('extrafooter')
+<script src="//theracersmedia.com/donations/js/udb-jsonp.js?ver=1.50"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
