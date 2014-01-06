@@ -36,7 +36,7 @@ class RegistrationController extends BaseController
         $activationCode = sha1(str_random(11) . (time() * rand(2, 2000)));
         $user = new User();
         $user->username = Input::get('username');
-        $user->fullname = Input::get('fullname');
+        //$user->fullname = Input::get('fullname');
         $user->gender = Input::get('gender');
         $user->email = Input::get('email');
         $user->password = Hash::make(Input::get('password'));
@@ -92,7 +92,7 @@ class RegistrationController extends BaseController
         $user->fbid = $session['id'];
         $user->email = $session['email'];
         $user->gender = $session['gender'];
-        $user->fullname = $session['name'];
+        //$user->fullname = $session['name'];
         $user->confirmed = 1;
         $user->save();
 

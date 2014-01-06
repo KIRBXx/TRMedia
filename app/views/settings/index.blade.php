@@ -25,10 +25,6 @@
     </label>
     {{ Form::text('username',$user->username,array('class'=>'form-control','disabled'=>'disabled'))}}
 </div>
-<div class="form-group">
-    <label for="fullname">{{ t('Fullname') }}</label>
-    {{ Form::text('fullname',$user->fullname,array('class'=>'form-control','required'=>'required')) }}
-</div>
 
 <div class="form-group">
     <label for="gender">{{ t('Gender') }}<small>*</small></label>

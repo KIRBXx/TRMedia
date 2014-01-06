@@ -18,11 +18,6 @@
     {{ Form::text('email','',array('class'=>'form-control','type'=>'email','id'=>'email','placeholder'=>t('Your Email'),'required'=>'required'))}}
 </div>
 <div class="form-group">
-    <label for="fullname">{{ t('Your Full Name') }}<small>*</small></label>
-    {{ Form::text('fullname','',array('class'=>'form-control','id'=>'fullname','placeholder'=>t('Your Full Name'),'required'=>'required'))}}
-</div>
-
-<div class="form-group">
     <label for="gender">{{ t('Gender') }}<small>*</small></label>
     {{ Form::select('gender', array('male' => 'Male', 'female' => 'Female'), 'male',array('id'=>'gender','class'=>'form-control','required'=>'required')) }}
 </div>

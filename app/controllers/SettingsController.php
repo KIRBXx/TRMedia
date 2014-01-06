@@ -37,7 +37,7 @@ class SettingsController extends BaseController
     {
         $input = Input::all();
         $rules = array(
-            'fullname' => array('required', 'regex:/^([a-z0-9\x20])+$/i'),
+            //'fullname' => array('required', 'regex:/^([a-z0-9\x20])+$/i'),
             'gender' => array('required'),
             'country' => array('required', 'alpha_num'),
             'dob' => array('date_format:Y-m-d'),
@@ -67,7 +67,7 @@ class SettingsController extends BaseController
 
 
         $update = Auth::user();
-        $update->fullname = Input::get('fullname');
+        //$update->fullname = Input::get('fullname');
         $update->dob = Input::get('dob');
         $update->country = Input::get('country');
         $update->about_me = Input::get('aboutme');
