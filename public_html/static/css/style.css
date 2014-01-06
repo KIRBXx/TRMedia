@@ -421,3 +421,8 @@ ul.action-bar {
     padding:4px;
     border-bottom:solid 4px #000066
 }
+
+.label-success { 
+  background-color: #5CB85C; 
+  padding: 2px 10px;
+};
