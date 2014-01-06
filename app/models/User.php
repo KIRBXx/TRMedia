@@ -51,6 +51,11 @@ class User extends Eloquent implements UserInterface, RemindableInterface
         return $this->email;
     }
 
+    public function is_validated(){
+      return $this->is_validated;
+    }
+
+
     public function images()
     {
         return $this->hasMany('Images');
@@ -92,7 +97,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface
 
         $rules = array(
             'username' => 'Required|Min:3|Max:20|alpha_num|Unique:users',
+
             //'fullname' => 'Required|Min:3|Max:80|regex:/^([a-z0-9\x20])+$/i',
+            'fullname' => 'Required|Min:3|Max:80|regex:/^([a-z0-9\x20])+$/i',
             'gender' => 'Required',
             'email' => 'Required|Between:3,64|Email|Unique:users',
             'password' => 'Required|Between:4,25|Confirmed',
@@ -102,6 +109,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface
 
         return Validator::make($input, $rules);
     }
-
-
+	
 }
+
+{

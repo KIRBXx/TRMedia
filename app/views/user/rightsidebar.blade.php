@@ -1,5 +1,12 @@
 <div class="col-md-3">
-<font size="5"><center><strong>{{{ $user->username }}}</strong></center></font>    
+<center>
+  <font size="5">
+    <strong>{{{ $user->username }}}</strong>
+  </font>
+    @if($user->is_verified)
+      <span class="label label-success">Verified</span>
+    @endif
+  </center>
 <a href="{{ url('user/'.$user->username) }}" class="thumbnail">
     <img src="{{ avatar($user->avatar,263,236) }}" alt="...">
 </a>
