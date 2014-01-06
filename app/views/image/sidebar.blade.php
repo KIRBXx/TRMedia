@@ -6,9 +6,7 @@
         <img src="{{ avatar($image->user->avatar,80,80) }}" alt=""/>
         <a href="{{ url('user/'.$image->user->username) }}">{{ ucfirst($image->user->username) }}</a>
 
-        <p>
-            <small>-</small>
-        </p>
+		<p></p>
         @if(Auth::check() == false)
         <button class="btn btn-info btn-xs replyfollow follow" id="{{ $image->user->id }}">Follow Me
         </button>
