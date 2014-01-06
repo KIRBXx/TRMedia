@@ -32,7 +32,7 @@
                                 @endif
 								
 								<div class="btn-primary btn-group btn-group-xs">
-								<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								<a class="btn dropdown-toggle btn-primary" data-toggle="dropdown" href="#">
 								Share
 								<span class="caret"></span>
 								</a>
