@@ -20,6 +20,7 @@
                         @endforeach
                     </ul>
                 </li>
+									
                  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ t('Popular') }}<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -29,8 +30,18 @@
                         <li><a href="{{ url('most/downloads') }}">{{ t('Most Downloads') }}</a></li>
                     </ul>
                 </li>			
-            </ul>
-
+            
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ ('Other') }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="{{ url('/about') }}">{{ ('About TRM') }}</a></li>
+						<li><a href="{{ url('/contact_us') }}">{{ ('Contact Us') }}</a></li>
+						<li class="divider"></li>
+						<li><a href="{{ url('/donate') }}">{{ ('Donate') }}</a></li>
+					</li>
+						</ul>
+					</ul>			
+					
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check() == false)
                 <li><a href="{{ url('login') }}">{{ t('Login') }}</a></li>

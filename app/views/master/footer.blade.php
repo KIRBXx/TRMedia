@@ -5,10 +5,6 @@
 
     <p>&copy; {{ date("Y") }} {{ siteSettings('siteName') }}&nbsp;&middot;&nbsp;<a href="{{ url('privacy') }}">{{ t('Privacy Policy') }}</a> · <a
             href="{{ url('faq') }}">{{ ('FAQ') }}</a>&nbsp;&middot;&nbsp;<a
-            href="{{ url('about') }}">{{ ('About') }}</a>&nbsp;&middot;&nbsp;<a
-			href="{{ url('contact_us') }}">{{ 'Contact' }}</a>&nbsp;&middot;&nbsp;<a
-			href="{{ url('donate') }}">{{ ('Donate') }}</a>
-
 
         @include('master/language')
     </p>
