@@ -41,7 +41,6 @@
         </div>
     </div>
     @endif
-<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FTheRacersMedia&amp;width=250&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=504325102999321" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:290px;" allowTransparency="true"></iframe>
 
     <div class="clearfix">
         <h3 class="block-heading">{{ t('More From') }} {{ siteSettings('siteName') }}</h3>
