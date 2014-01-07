@@ -31,16 +31,6 @@
                 </li>			
             </ul>
 
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <form class="navbar-form" role="search" method="GET" action="{{ url('search') }}">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="{{ t('Search') }} " name="q" id="srch-term">
-                        <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check() == false)
                 <li><a href="{{ url('login') }}">{{ t('Login') }}</a></li>
