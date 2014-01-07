@@ -34,13 +34,13 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ ('Other') }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="{{ url('/about') }}">{{ ('About TRM') }}</a></li>
+						<li><a href="#about" data-toggle="modal">{{ ('About TRM') }}</a></li>
 						<li><a href="{{ url('/contact_us') }}">{{ ('Contact Us') }}</a></li>
 						<li class="divider"></li>
 						<li><a href="{{ url('/donate') }}">{{ ('Donate') }}</a></li>
 					</li>
 						</ul>
-					</ul>			
+					</ul>
 					
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check() == false)
@@ -72,5 +72,29 @@
             </ul>
         </div>
         <!--/.nav-collapse -->
+		
     </div>
 </div>
+
+								  <!-- Modal -->
+								  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+									  <div class="modal-content">
+										<div class="modal-header navbar-default">
+										  <button type="button" style="color: #fff" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										  <h4 class="modal-title" style="color: #fff">About The Racers Media</h4>
+										</div>
+										<div class="modal-body">
+										  <p>The Racers Media is a Motorsport Media Sharing Website!<br> At The Racers Media, you can share Motorsport Images from the past or present!</p>
+										  <ul>
+											<li><strong>Founder - </strong>The Stigs 16th 1/2 Cousin Jimbo Stiggels</li>
+											<li><strong>Contact Email - </strong>main@theracersmedia.com</li>
+											<li><strong>Launch Date - </strong>November 23rd, 2013</li>
+										</div>
+										<div class="modal-footer">
+										  <button type="button" class="btn btn-default">Our Facebook</button>
+										  <button type="button" class="btn btn-primary">Our Twitter</button>
+										</div>
+									  </div><!-- /.modal-content -->
+									</div><!-- /.modal-dialog -->
+								  </div><!-- /.modal -->
