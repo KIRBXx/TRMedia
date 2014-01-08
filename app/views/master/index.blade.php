@@ -56,6 +56,7 @@
 {{ HTML::script('static/js/multiupload.js') }}
 {{ HTML::script('static/js/custom.js') }}
 
+@include('master/upload')
 @yield('extrafooter')
 <script src="//theracersmedia.com/donations/js/udb-jsonp.js?ver=1.50"></script>
 <script>

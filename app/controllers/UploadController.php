@@ -40,7 +40,7 @@ class UploadController extends BaseController
         }
         // check if category exits
         if (DB::table('sitecategories')->where('slug', '=', Str::slug(Input::get('category')))->count() != 1) {
-            return $this->error(array('error'=>t('Invalid category')));
+            return $this->error(array('error'=>'Invalid category'));
         }
 
         if (Auth::user()->images()->where('created_at', '>=', date('Y-m-d'))->count() >= limitPerDay()) {
