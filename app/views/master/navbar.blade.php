@@ -36,7 +36,6 @@
 					<ul class="dropdown-menu">
 						<li><a href="#about" data-toggle="modal">{{ ('About TRM') }}</a></li>
 						<li><a href="{{ url('/contact_us') }}">{{ ('Contact Us') }}</a></li>
-						<li class="divider"></li>
 						<li><a href="#donate" data-toggle="modal">{{ ('Donate') }}</a></li>
 					</li>
 						</ul>
@@ -91,8 +90,8 @@
 											<li><strong>Launch Date - </strong>November 23rd, 2013</li>
 										</div>
 										<div class="modal-footer">
-										  <a href="http://twitter.com"><img src="/social/images/twitter.png"></a>										  
-										  <a href="http://facebook.com"><img src="/social/images/facebook.png"></a>
+										  <a href="http://twitter.com/theracersmedia"><img src="/social/images/twitter.png"></a>										  
+										  <a href="http://facebook.com/theracersmedia"><img src="/social/images/facebook.png"></a>
 										</div>
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
@@ -111,8 +110,8 @@
 										<div class="udb-box" data-id="1"></div>
 										</div>
 										<div class="modal-footer">
-										  <a href="http://twitter.com"><img src="/social/images/twitter.png"></a>										  
-										  <a href="http://facebook.com"><img src="/social/images/facebook.png"></a>
+										  <a href="http://twitter.com/theracersmedia"><img src="/social/images/twitter.png"></a>										  
+										  <a href="http://facebook.com/theracersmedia"><img src="/social/images/facebook.png"></a>
 										</div>
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
