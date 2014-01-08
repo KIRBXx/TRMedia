@@ -38,9 +38,9 @@ Route::get('most/downloads','MostController@mostDownloaded');
 Route::get('contact_us', 'ContactUsController@getContactUs');
 Route::post('contact_us', 'ContactUsController@postContactUs');
 
-// Testing Donate Form
-Route::get('donate', 'DonateController@getDonate');
-Route::post('donate', 'DonateController@postDonate');
+// News Page
+Route::get('news', 'NewsController@getnews');
+Route::post('news', 'NewsController@postnews');
 
 Route::get('lang/{lang?}', function ($lang) {
     if (in_array($lang, languageArray())) {
