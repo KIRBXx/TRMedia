@@ -7,6 +7,13 @@
     @yield('metaDescription')
     <link rel="shortcut icon" href="{{ siteSettings('favIcon') }}" type="image/x-icon"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <script data-cfasync="false" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script data-cfasync="false" src="/static/js/jquery-ui.min.js"></script>
+    <script data-cfasync="false" src="/static/js/blueimp-gallery.min.js"></script>
+    <script data-cfasync="false" src="/static/js/multiupload.js"></script>
+
+
     {{ HTML::style('static/css/bootstrap.min.css',array('id'=>"colors")) }}
     {{ HTML::style('static/css/jquery-ui.css') }}
     {{ HTML::style('static/css/datepicker.css') }}
@@ -47,13 +54,9 @@
     @include('master/footer')
 </div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-{{ HTML::script('static/js/jquery-ui.min.js') }}
 {{ HTML::script('static/js/bootstrap.min.js') }}
-{{ HTML::script('static/js/blueimp-gallery.min.js') }}
 {{ HTML::script('static/js/jquery.timeago.js') }}
 {{ HTML::script('static/js/bootstrap-datepicker.js') }}
-{{ HTML::script('static/js/multiupload.js') }}
 {{ HTML::script('static/js/custom.js') }}
 
 @include('master/upload')

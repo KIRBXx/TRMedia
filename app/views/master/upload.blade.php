@@ -118,10 +118,8 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 @section('extrafooter')
-<script>
+<script data-cfasync='false' type='text/javascript'>
   var modalBodyHtml = $("#modalBodyHtml").html();
-  console.log(modalBodyHtml);
-  console.log("END");
 
   function drawUploadModal(){
     $("#uploadModalBody").html(modalBodyHtml);
@@ -142,7 +140,6 @@
           }} 
         )
   });
-
 </script>
 @stop
 
