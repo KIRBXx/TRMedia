@@ -37,7 +37,7 @@
 						<li><a href="#about" data-toggle="modal">{{ ('About TRM') }}</a></li>
 						<li><a href="{{ url('/contact_us') }}">{{ ('Contact Us') }}</a></li>
 						<li class="divider"></li>
-						<li><a href="{{ url('/donate') }}">{{ ('Donate') }}</a></li>
+						<li><a href="#donate" data-toggle="modal">{{ ('Donate') }}</a></li>
 					</li>
 						</ul>
 					</ul>
@@ -76,7 +76,7 @@
     </div>
 </div>
 
-								  <!-- Modal -->
+								  <!-- ABOUT US Modal -------------------------------------------------------------------------------->
 								  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 									<div class="modal-dialog">
 									  <div class="modal-content">
@@ -87,14 +87,35 @@
 										<div class="modal-body">
 										  <p>The Racers Media is a Motorsport Media Sharing Website!<br> At The Racers Media, you can share Motorsport Images from the past or present!</p>
 										  <ul>
-											<li><strong>Founder - </strong>The Stigs 16th 1/2 Cousin Jimbo Stiggels</li>
+											<li><strong>Founder - </strong>The Stigs 16th Cousin, Jimbo Stiggels</li>
 											<li><strong>Contact Email - </strong>main@theracersmedia.com</li>
 											<li><strong>Launch Date - </strong>November 23rd, 2013</li>
 										</div>
 										<div class="modal-footer">
-										  <button type="button" class="btn btn-default">Our Facebook</button>
-										  <button type="button" class="btn btn-primary">Our Twitter</button>
+										  <a href="http://twitter.com"><img src="/social/images/twitter.png"></a>										  
+										  <a href="http://facebook.com"><img src="/social/images/facebook.png"></a>
 										</div>
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
-								  </div><!-- /.modal -->
+								  </div><!-- ABOUT US/.modal ---------------------------------------------------------------------------->
+								  
+								  
+								<!-- DONATE Modal -------------------------------------------------------------------------------->
+								  <div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+									  <div class="modal-content">
+										<div class="modal-header navbar-default">
+										  <button type="button" style="color: #fff" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										  <h4 class="modal-title" style="color: #fff">Donate to The Racers Media</h4>
+										</div>
+										<div class="modal-body">
+										<div class="udb-box" data-id="1"></div>
+										</div>
+										<div class="modal-footer">
+										  <a href="http://twitter.com"><img src="/social/images/twitter.png"></a>										  
+										  <a href="http://facebook.com"><img src="/social/images/facebook.png"></a>
+										</div>
+									  </div><!-- /.modal-content -->
+									</div><!-- /.modal-dialog -->
+								  </div><!-- DONATE/.modal ---------------------------------------------------------------------------->
+
