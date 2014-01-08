@@ -20,12 +20,11 @@
         </div>
     </div>
     @foreach($user->latestImages->take(3) as $image)
-    <div class="col-md-2 col-sm-3 col-xs-3">
+    <div class="col-md-2 col-sm-3 col-xs-3 hidden-xs">
         <a href="{{ url('image/'.$image->id.'/'.$image->slug) }}"><img src="{{ asset(zoomCrop('uploads/'.$image->image_name. '.' . $image->type,100,100)) }}" class="thumbnail"></a>
     </div>
     @endforeach
 </div>
-<hr>
 @endforeach
 
 @stop

@@ -8,10 +8,10 @@
       <ul class="nav nav-tabs usernavbar">
           <li class="active"><a href="{{ url('user/'.$user->username) }}" class="active"><i class="glyphicon glyphicon-user"></i> User Info</a></li>
           <li><a href="{{ url('user/'.$user->username.'/shared') }}"><i class="glyphicon glyphicon-picture"></i> {{ t('Images Shared') }}</a></li>
-          <li><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
+          <li class="hidden-xs"><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
 @if(Auth::check() == true)
   @if(Auth::user()->id == $user->id)
-      <li class='pull-right'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("I'm following") }}</a></li>
+      <li class='pull-right hidden-xs'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("I'm following") }}</a></li>
   @else
     @if(checkFollow($user->id))
       <li class='pull-right'><a href="#" class="follow btn btn-success" id="{{ $user->id }}">Unfollow Me</a>
@@ -49,7 +49,7 @@
               <p><i><center>(none)</center></i></p>
             @endif
 
-            <h3 class="content-heading">{{ $user->followers->count() }}&nbsp;&nbsp; {{ t('Followers') }}  <small class="pull-right"><a href="{{ url('user/'. $user->username. '/followers') }}">{{ t('See all') }}</a></small></h3> 
+            <h3 class="content-heading hidden-xs">{{ $user->followers->count() }}&nbsp;&nbsp; {{ t('Followers') }}  <small class="pull-right hidden-xs"><a href="{{ url('user/'. $user->username. '/followers') }}">{{ t('See all') }}</a></small></h3> 
 
             <h3 class="content-heading">{{ t('Most Used Tags') }}</h3>
             @foreach($mostUsedTags as $tag => $key)

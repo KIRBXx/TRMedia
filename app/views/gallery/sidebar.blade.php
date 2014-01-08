@@ -1,17 +1,18 @@
-            <div class="col-md-3">
-			<h3 class="content-heading">{{ ('Search') }}</h3></div>
-			<div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-md-3 hidden-xs">
+			<h3 class="content-heading">{{ ('Search') }}</h3>
+	    </div>
+	    <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
                 <form class="navbar-form" role="search" method="GET" action="{{ url('search') }}">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="{{ t('Search') }} " name="q" id="srch-term">
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                    </div>
-			</div>
+                        </div>
+		    </div>
                 </form>
-            </div>
+             </div>
 
-<div class="col-md-3">
+<div class="col-md-3 hidden-xs">
     @if(getFeaturedUser()->count() >= 1)
     <div class="clearfix">
         <h3 class="content-heading">{{ ('Featured Member') }}</h3>
@@ -42,7 +43,7 @@
     </div>
     @endif
 
-    <div class="clearfix">
+    <div class="clearfix hidden-xs">
         <h3 class="block-heading">{{ t('More From') }} {{ siteSettings('siteName') }}</h3>
         <div class="more-from-site">
             @foreach(moreFromSite() as $sidebarImage)
