@@ -47,7 +47,7 @@
                 <li><a href="{{ url('login') }}">{{ t('Login') }}</a></li>
                 <li><a href="{{ url('registration') }}">{{ t('Register') }}</a></li>
                 @else
-                <li><a href="{{ url('upload') }}">{{ t('Upload') }}</a></li>
+                <li><a href="#" onClick="drawUploadModal()">{{ t('Upload') }}</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         @if(numberOfNotifications() > 0)
@@ -75,7 +75,6 @@
 		
     </div>
 </div>
-
 								  <!-- ABOUT US Modal -------------------------------------------------------------------------------->
 								  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 									<div class="modal-dialog">
@@ -98,8 +97,8 @@
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
 								  </div><!-- ABOUT US/.modal ---------------------------------------------------------------------------->
-								  
-								  
+							
+								
 								<!-- DONATE Modal -------------------------------------------------------------------------------->
 								  <div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 									<div class="modal-dialog">
@@ -118,4 +117,3 @@
 									  </div><!-- /.modal-content -->
 									</div><!-- /.modal-dialog -->
 								  </div><!-- DONATE/.modal ---------------------------------------------------------------------------->
-
