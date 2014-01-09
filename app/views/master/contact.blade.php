@@ -60,14 +60,15 @@
             url: "/contact_us",
             data: $("#contactForm").serialize(),
             success: function(data, responseText, xhr){
-              for(error in data){
-                $("#formErrors").append("<div class='alert alert-danger'>" + data[error] + "</div>");
-                $("#" + error).parent().parent().addClass('has-error')
-              };
-
-              //if(responseText){
-              //  $("#contactForm").html(responseText);
-              //}
+              if(data.success){
+                $("#contactForm").html(data.success);
+                setTimeout(function(){ $("#contact").modal('hide')}, 2000);
+              }else{
+                for(error in data){
+                  $("#formErrors").append("<div class='alert alert-danger'>" + data[error] + "</div>");
+                  $("#" + error).parent().parent().addClass('has-error')
+                };
+              }
             }
           })
           return false;

@@ -4,11 +4,11 @@
  */
 class ContactUsController extends BaseController
 {
-    //public function getContactUs()
-    //{
-    //    return View::make('contact_us/index')
-    //        ->with('title', 'Contact Us');
-    //}
+    public function getContactUs()
+    {
+        return View::make('contact_us/index')
+            ->with('title', 'Contact Us');
+    }
 
     public function postContactUs()
     {
@@ -41,6 +41,8 @@ class ContactUsController extends BaseController
             $message->to('jameskirby1993@gmail.com', 'James Kirby')->subject($data['subject']);
         });
 
-        return(t("Your message has been sent!"));
+        $return_msg = [];
+        $return_msg['success'] = "Your message has been sent!";
+        return($return_msg);
     }
 }
