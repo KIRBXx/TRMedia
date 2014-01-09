@@ -1,18 +1,9 @@
-@extends('master/index')
-
-@section('content')
-
-<div class="col-md-9">
-    <div class="page-header">
-        <h1>{{{ $title }}}</h1>
-    </div>
-    <div id="mainwrapper">
       <?php 
         if(isset($status_message)){
           print "<div class='alert alert-success'>" . $status_message . "</div>";
         }
       ?>
-      
+
       <form role='form' class='form-horizontal'  method='POST'>
 
         <div class='form-group'>
@@ -47,21 +38,10 @@
 		<center>{{ Form::captcha() }}</center>
 		</div>
 
-        <div class='form-group'>
-          <div class='col-sm-offset-2 col-xs-8'>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </div>
-		
-      </form>
+    </form>
 
     <div class="clearfix">
     </div>
 
     <div class="clearfix">
     </div>
-  </div>
-</div>
-
-@stop
-

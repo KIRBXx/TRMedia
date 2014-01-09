@@ -4,11 +4,11 @@
  */
 class ContactUsController extends BaseController
 {
-    public function getContactUs()
-    {
-        return View::make('contact_us/index')
-            ->with('title', 'Contact Us');
-    }
+    //public function getContactUs()
+    //{
+    //    return View::make('contact_us/index')
+    //        ->with('title', 'Contact Us');
+    //}
 
     public function postContactUs()
     {
@@ -20,12 +20,13 @@ class ContactUsController extends BaseController
             'name'                     => array('required'),
             'subject'                  => array('required'),
             'message'                  => array('required'),
-            'recaptcha_response_field' => array('required', 'recaptcha')
+            //'recaptcha_response_field' => array('required', 'recaptcha')
         );
 
         $v = Validator::make($input, $v);
         if ($v->fails()) {
-            return Redirect::to('contact_us')->withErrors($v)->withInput();
+            $errors = $v->messages();
+            return($errors);
         }
 
 
@@ -40,8 +41,6 @@ class ContactUsController extends BaseController
             $message->to('jameskirby1993@gmail.com', 'James Kirby')->subject($data['subject']);
         });
 
-        return View::make('contact_us/index')
-            ->with('title', 'Contact Us')
-            ->with('success', "Your message has been sent!");
+        return(t("Your message has been sent!"));
     }
 }
