@@ -1,13 +1,12 @@
 								<!-- FAQ Modal -------------------------------------------------------------------------------->
-								  <div class="modal fade" id="faq" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								  <div class="modal fade" id="rules" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 									<div class="modal-dialog">
 									  <div class="modal-content">
 										<div class="modal-header navbar-default">
 										  <button type="button" style="color: #fff" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										  <h4 class="modal-title" style="color: #fff">FAQ</h4>
+										  <h4 class="modal-title" style="color: #fff">Rules</h4>
 										</div>
 										<div class="modal-body">
-										<p>Common Facts & Questions<p/>
 										<ul>
 										<li><strong>What type of images are allowed?</strong>	Any Motorsport Related Images are allowed (Even Video Games/Simulations Involving Motorsports!)</li>
 										</ul>
