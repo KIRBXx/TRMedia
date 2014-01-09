@@ -42,11 +42,11 @@
 					</ul>
 					
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" onClick="drawUploadModal()">{{ t('Upload') }}</a></li>
                 @if(Auth::check() == false)
                 <li><a href="{{ url('login') }}">{{ t('Login') }}</a></li>
                 <li><a href="{{ url('registration') }}">{{ t('Register') }}</a></li>
                 @else
-                <li><a href="#" onClick="drawUploadModal()">{{ t('Upload') }}</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         @if(numberOfNotifications() > 0)

@@ -38,6 +38,8 @@ Route::get('most/downloads','MostController@mostDownloaded');
 Route::get('contact_us', 'ContactUsController@getContactUs');
 Route::post('contact_us', 'ContactUsController@postContactUs');
 
+Route::post('upload', 'UploadController@postUpload');
+
 // News Page
 Route::get('news', 'NewsController@getnews');
 Route::post('news', 'NewsController@postnews');
@@ -85,14 +87,14 @@ Route::group(array('before' => 'ajax|ajaxban'), function () {
     Route::post('reply', 'ReplyController@postReply');
     Route::post('deletecomment', 'CommentController@postDeleteComment');
     Route::post('deletereply', 'ReplyController@postDeleteReply');
-    Route::post('upload', 'UploadController@postUpload')->before('ban');
+    //Route::post('upload', 'UploadController@postUpload')->before('ban');
 });
 
 /*
  * Require login to access these sections
  */
 Route::group(array('before' => 'auth'), function () {
-    Route::get('upload', 'UploadController@getIndex')->before('ban');
+//    Route::get('upload', 'UploadController@getIndex')->before('ban');
     Route::get('logout', 'LoginController@getLogout');
     Route::get('feeds', 'FeedsController@getIndex');
     Route::get('user/{username}/following', 'UserController@getFollowing');

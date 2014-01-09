@@ -27,12 +27,20 @@ class UploadController extends BaseController
         //    return $this->error(array('error'=>t('Image File is required')));
         //}
 
+        $this_user = Auth::user();
+
         // Removing tag req - RR 30 Dec 2013
         $v = array(
             'title'    => array('required', 'min:2', 'max:100'),
             'category' => array('required')
             //'tags'     => array('required'),
         );
+
+
+        // Allow guest uploading
+        if(! $this_user){
+          $this_user = User::where('username', '=', 'Anonymous')->first();
+        }
 
         $v = Validator::make(Input::all(), $v);
         if ($v->fails()) {
@@ -43,7 +51,7 @@ class UploadController extends BaseController
             return $this->error(array('error'=>'Invalid category'));
         }
 
-        if (Auth::user()->images()->where('created_at', '>=', date('Y-m-d'))->count() >= limitPerDay()) {
+        if ($this_user->images()->where('created_at', '>=', date('Y-m-d'))->count() >= limitPerDay()) {
             return $this->error(array('error'=>t('You have reached today\'s limit')));
         }
 
@@ -82,7 +90,7 @@ class UploadController extends BaseController
                 $allowDownload = 1;
             }
         }
-        if(Auth::user()->is_featured == 1) {
+        if($this_user->is_featured == 1) {
             $approve = 1;
         } elseif (siteSettings('autoApprove') == '0') {
             $approve = 0;
@@ -90,7 +98,7 @@ class UploadController extends BaseController
             $approve = 1;
         }
         $upload = new Images();
-        $upload->user_id = Auth::user()->id;
+        $upload->user_id = $this_user->id;
         $upload->image_name = $imageName;
         $upload->title = Input::get('title');
         $upload->slug = $slug;
