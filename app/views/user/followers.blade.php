@@ -7,7 +7,7 @@
             margin-bottom: 10px;
         }
     </style>
-    <h3 class="content-heading">{{ t('Users')}} I am following</h3>
+    <h3 class="content-heading">{{ t('Users')}} that follow me</h3>
 
     @foreach($user->followers as $follower)
     <div class="col-md-4 br-right follwing">
