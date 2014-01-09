@@ -10,7 +10,7 @@ Route::resource('install', 'InstallController');
  * If you modify anything your site might go corrupted.
  * Thanks
  */
-Route::get('/', 'HomeController@getIndex')->before('guest');
+Route::get('/', 'GalleryController@getIndex')->before('guest');
 Route::get('gallery', 'GalleryController@getIndex');
 Route::get('featured', 'FeaturedController@getIndex');
 Route::get('image/{id}/{slug?}', 'ImageController@getIndex')->where(array('id' => '\d+'));
