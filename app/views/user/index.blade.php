@@ -11,7 +11,7 @@
           <li class="hidden-xs"><a href="{{ url('user/'.$user->username.'/favorites') }}" class="active"><i class="glyphicon glyphicon-heart"></i> {{ t('Favorites') }}</a></li>
 @if(Auth::check() == true)
   @if(Auth::user()->id == $user->id)
-      <li class='pull-right hidden-xs'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("I'm following") }}</a></li>
+      <li class='pull-right hidden-xs'><a href="{{ url('user/'.Auth::user()->username.'/following') }}" class='btn btn-danger'>{{ t("Following") }}</a></li>
   @else
     @if(checkFollow($user->id))
       <li class='pull-right'><a href="#" class="follow btn btn-success" id="{{ $user->id }}">Unfollow Me</a>
