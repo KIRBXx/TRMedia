@@ -20,7 +20,7 @@
                             </tr>
                             <tr>
                                 <td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 12px; line-height: 20px;">
-                                    {{ $message }}
+                                    {{ $mail_message }}
                                 </td>
                             </tr>
                         </table>

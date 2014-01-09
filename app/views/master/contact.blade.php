@@ -41,7 +41,7 @@
 				<div class='form-group'>
 						<label for='message_input' class='control-label col-xs-3'>Message:</label>
 					<div class='col-xs-8'>
-						<textarea name='message' id='message' rows=10 class='form-control' placeholder='Enter your message here'></textarea>
+						<textarea name='mail_message' id='mail_message' rows=10 class='form-control' placeholder='Enter your message here'></textarea>
 					</div>
 				</div>
 		

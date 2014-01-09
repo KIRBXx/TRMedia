@@ -19,7 +19,7 @@ class ContactUsController extends BaseController
             'email'                    => array('required', 'email'),
             'name'                     => array('required'),
             'subject'                  => array('required'),
-            'message'                  => array('required'),
+            'mail_message'             => array('required'),
             //'recaptcha_response_field' => array('required', 'recaptcha')
         );
 
@@ -33,7 +33,7 @@ class ContactUsController extends BaseController
         $data = array(
             'name'    => Input::get('name'),
             'email'   => Input::get('email'),
-            'message' => Input::get('message'),
+            'mail_message' => Input::get('mail_message'),
             'subject' => Input::get('subject')
         );
 
