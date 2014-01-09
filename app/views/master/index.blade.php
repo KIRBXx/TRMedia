@@ -60,6 +60,7 @@
 {{ HTML::script('static/js/custom.js') }}
 
 @include('master/upload')
+@include{'master/contact')
 @yield('extrafooter')
 <script src="//theracersmedia.com/donations/js/udb-jsonp.js?ver=1.50"></script>
 <script>

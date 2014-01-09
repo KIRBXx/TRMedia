@@ -35,8 +35,8 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ ('Other') }}<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="#about" data-toggle="modal">{{ ('About TRM') }}</a></li>
-						<li><a href="{{ url('/contact_us') }}">{{ ('Contact Us') }}</a></li>
 						<li><a href="#donate" data-toggle="modal">{{ ('Donate') }}</a></li>
+						<li><a href="#contact" data-toggle="modal">{{ ('Contact') }}</a></li>
 					</li>
 						</ul>
 					</ul>
@@ -74,6 +74,7 @@
 		
     </div>
 </div>
+@include('master/contact')
 								  <!-- ABOUT US Modal -------------------------------------------------------------------------------->
 								  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 									<div class="modal-dialog">
