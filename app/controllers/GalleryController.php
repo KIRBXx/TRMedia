@@ -9,7 +9,7 @@ class GalleryController extends BaseController
      */
     public function getIndex()
     {
-        $images = Images::where('approved', '=', 1)->orderBy('created_at', 'desc')->with('user','comments','favorite')->paginate(perPage());
+        $images = Images::where('approved', '=', 1)->orderBy(DB::raw('RAND()'))->with('user','comments','favorite')->paginate(perPage());
         return View::make('gallery/index')
             ->with('images', $images)
             ->with('title', ('Home'));
